@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/aboutMe_padding_linearLayout"
+        android:paddingRight="@dimen/aboutMe_padding_linearLayout"
+        android:background="@color/app_background"
+        android:gravity="center"
+        tools:context=".AboutMeActivity"
+        android:orientation="vertical">
+    <TextView
+            android:text="@string/aboutMe_title"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/bmiCalculatorTV"
+            android:textSize="@dimen/aboutMe_textSize_bmiCalcTV"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="@dimen/aboutMe_height_elements"/>
+    <ImageView
+            android:src="@drawable/knowyourbmi"
+            android:layout_width="match_parent"
+            android:id="@+id/knowYourBmiIV"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:adjustViewBounds="false"
+            android:layout_height="@dimen/aboutMe_height_elements"/>
+    <TextView
+            android:text="@string/aboutMe_description"
+            android:layout_width="match_parent"
+
+            android:layout_weight="2.5"
+            android:id="@+id/bmiDescriptionTV"
+            android:scrollbars="vertical"
+            android:layout_marginTop="@dimen/aboutMe_margin_elements"
+            android:layout_marginBottom="@dimen/aboutMe_margin_elements"
+            android:layout_gravity="center_horizontal|end"
+            android:textSize="@dimen/aboutMe_textSize_descriptionTV"
+            android:layout_height="@dimen/aboutMe_height_elements"/>
+    <ImageView
+            android:src="@drawable/bmicategories"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/aboutMe_margin_elements"
+            android:layout_weight="1"
+            android:id="@+id/bmiCategoriesIV"
+            android:layout_height="@dimen/aboutMe_height_elements"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>
+
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/app_background</item>
+    </style>
+
+    <!-- Custom style to show dividers-->
+    <style name="PopupMenuListView" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/separator_line</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>

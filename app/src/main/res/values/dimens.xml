@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Activity dimensions -->
+    <dimen name="main_margin_elements">8dp</dimen>
+    <dimen name="main_width_imageView">0dp</dimen>
+    <dimen name="main_height_imageView">0dp</dimen>
+    <dimen name="main_marginBottom_guideline">504dp</dimen>
+    <dimen name="main_marginTop_guideline">227dp</dimen>
+    <dimen name="main_marginEnd_guideline">411dp</dimen>
+    <dimen name="main_width_elements">0dp</dimen>
+    <dimen name="main_width_imageBTN">50dp</dimen>
+    <dimen name="main_height_imageBTN">50dp</dimen>
+    <dimen name="main_marginBottom_imageBTN">40dp</dimen>
+    <dimen name="main_marginBottom_categoryTV">32dp</dimen>
+    <dimen name="main_textSize_categoryTV">14sp</dimen>
+    <dimen name="main_textSize_resultBmiTV">30sp</dimen>
+    <dimen name="main_textSize_editText">12sp</dimen>
+    <dimen name="main_marginBottom_heightET">24dp</dimen>
+    <dimen name="main_textSize_countBTN">18sp</dimen>
+    <dimen name="main_textSize_textView">12sp</dimen>
+
+    <dimen name="mainLand_marginStart_imageBTN">8dp</dimen>
+    <dimen name="mainLand_marginBottom_imageBTN">4dp</dimen>
+    <dimen name="mainLand_marginBottom_categoryTV">5dp</dimen>
+    <dimen name="mainLand_marginBottom_heightET">24dp</dimen>
+    <dimen name="mainLand_marginTop_heightTV">8dp</dimen>
+    <dimen name="mainLand_marginTop">8dp</dimen>
+    <dimen name="mainLand_marginBottom">8dp</dimen>
+    <dimen name="mainLand_margin_elements">32dp</dimen>
+
+    <!-- AboutMe Activity dimensions -->
+    <dimen name="aboutMe_margin_elements">8dp</dimen>
+    <dimen name="aboutMe_padding_linearLayout">16dp</dimen>
+    <dimen name="aboutMe_height_elements">0dp</dimen>
+    <dimen name="aboutMe_textSize_descriptionTV">12sp</dimen>
+    <dimen name="aboutMe_textSize_bmiCalcTV">24sp</dimen>
+
+    <!-- Info Activity dimensions -->
+    <dimen name="info_width_imageView">100dp</dimen>
+    <dimen name="info_height_imageView">100dp</dimen>
+    <dimen name="info_marginTop_imageView">32dp</dimen>
+    <dimen name="info_marginStart_imageView">8dp</dimen>
+    <dimen name="info_marginEnd_elements">16dp</dimen>
+    <dimen name="info_marginHorizontal_elements">16dp</dimen>
+    <dimen name="info_marginVertical_elements">32dp</dimen>
+    <dimen name="info_padding_relativeLayout">8dp</dimen>
+    <dimen name="info_marginEnd_resultTV">0dp</dimen>
+    <dimen name="info_textSize_descriptionTV">18sp</dimen>
+    <dimen name="info_textSize_resultTV">28sp</dimen>
+
+    <!-- History Activity dimensions -->
+    <dimen name="history_layout_width">0dp</dimen>
+    <dimen name="history_layout_height">0dp</dimen>
+    <dimen name="historyRow_padding">8dp</dimen>
+    <dimen name="historyRow_layout_width">0dp</dimen>
+    <dimen name="historyRow_margin">8dp</dimen>
+    <dimen name="historyRow_line_height">1dp</dimen>
+    <dimen name="historyRow_marginTop_weight">16dp</dimen>
+    <dimen name="hitoryRow_marginBottom_weight">16dp</dimen>
+    <dimen name="historyRow_margin_tv_date">5dp</dimen>
+    <dimen name="historyRow_textSize_date">12sp</dimen>
+    <dimen name="historyRow_textSize_result">18sp</dimen>
+    <dimen name="historyRow_textSize_weight">14sp</dimen>
+    <dimen name="historyRow_textSize_height">14sp</dimen>
+
+</resources>

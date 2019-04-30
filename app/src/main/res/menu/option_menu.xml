@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1">
+    <item android:title="@string/option_about_me"
+          android:id="@+id/aboutMeItem"
+    />
+    </group>
+
+    <group android:id="@+id/grp2">
+    <item
+            android:id="@+id/switchUnitsItem"
+            android:title="@string/option_lb_in_units"
+            android:checkable="true"
+            android:saveEnabled="true"/>
+    </group>
+
+    <group android:id="@+id/grp3">
+    <item
+            android:id="@+id/historyItem"
+            android:title="@string/option_history"/>
+    </group>
+
+</menu>

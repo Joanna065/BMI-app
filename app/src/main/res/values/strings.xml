@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <!-- Categories BMI -->
+    <string name="underweight_cat_bmi">Underweight</string>
+    <string name="normal_cat_bmi">Normal</string>
+    <string name="overweight_cat_bmi">Overweight</string>
+    <string name="obese_cat_bmi">Obese</string>
+    <string name="extremely_obese_cat_bmi">Extremely Obese</string>
+
+    <!-- Errors -->
+    <string name="invalid_input">Invalid input</string>
+    <string name="blank_input">Field cannot be blank</string>
+
+    <!-- Main Activity items -->
+    <string name="main_tv_mass_kg">Mass [kg]</string>
+    <string name="main_tv_height_cm">Height [cm]</string>
+    <string name="main_tv_mass_lb">Mass [lb]</string>
+    <string name="main_tv_height_in">Height [in]</string>
+    <string name="main_btn_count">Count BMI</string>
+
+    <!-- Option menu items -->
+    <string name="option_about_me">About Me</string>
+    <string name="option_lb_in_units">lb/in units</string>
+    <string name="option_history">History</string>
+
+    <!-- AboutMe Activity items -->
+    <string name="aboutMe_name">About me</string>
+    <string name="aboutMe_title">Bmi Calculator</string>
+    <string name="aboutMe_description">Body mass index, or BMI, is a measure of body size. It combines a person\'s
+        weight with their height. The results of a BMI measurement can give an idea about whether a person has the
+        correct weight for their height.\n\n
+        Carrying too much weight can lead to a variety of health conditions, such as type 2 diabetes, high blood
+        pressure,
+        and cardiovascular problems.\n\n
+        A weigh that is too low can increase the risk of malnutrition, osteoporosis, and anemia.
+        The doctor will make suitable recommendations.\n\n
+        BMI does not measure body fat directly, and it does not account for age, sex, ethnicity,
+        or muscle mass in adults. However, it uses standard weight status categories that can help doctors to track
+        weight status across populations and identify potential issues in individuals.
+    </string>
+
+    <!-- Info Activity items -->
+    <string name="info_name">Info</string>
+    <string name="info_category_descriptionTV">Category description</string>
+    <string name="info_categoryTV">Category</string>
+    <string name="info_resultTV">Result</string>
+    <string name="normal_bmi_description">
+        Your BMI result is perfect! Keep up your shape and enjoy life.
+    </string>
+    <string name="underweight_bmi_description">
+        Your weight is too small… Please try eat regularly but remember to eat healthy food.
+    </string>
+    <string name="overweight_bmi_description">
+        Your weight is a bit too high… Try to limit sweets and move more.
+    </string>
+    <string name="obese_bmi_description">
+        Your BMI is too high. You should go on a diet and start training some sports.
+        Just jogging or swimming will be a good idea.
+    </string>
+    <string name="extremely_obese_bmi_description">
+        You definitely eat too much! Change your life rhythm radically and start practicing some sport
+        and eating healthier. Consider visiting a dietitian for some pieces of advice.
+    </string>
+
+    <!-- History Activity items -->
+    <string name="history_weight_default">Weight</string>
+    <string name="history_height_default">Height</string>
+    <string name="history_bmi_default">BmiResult</string>
+    <string name="sharedPref_results_bmi">SharedResultBmiList</string>
+    <string name="historyRow_tv_date">Date</string>
+
+</resources>

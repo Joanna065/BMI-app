@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#fafaf6</color>
+    <color name="colorPrimary">#767643</color>
+    <color name="colorPrimaryDark">#5a5a3a</color>
+    <color name="colorAccent">#906030</color>
+    <color name="separator_line">#906030</color>
+    <color name="history_record">#faf7e5</color>
+
+    <!-- Categories BMI colors -->
+    <color name="underweightLapisLazuli">#26619C</color>
+    <color name="normalVerdigris">#00A693</color>
+    <color name="overweightGoldenYellow">#FFCE00</color>
+    <color name="obeseFlame">#e25822</color>
+    <color name="extremelyObesePompeianRose">#B80000</color>
+</resources>
